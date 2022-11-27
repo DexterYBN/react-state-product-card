@@ -1,0 +1,138 @@
+.App {
+    width: 250px;
+    height: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+img {
+    width: 100%;
+    height: 160px;
+}
+
+.center {
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.price {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.btn {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+}
+
+.btnButton {
+    border: transparent;
+    border: 2px solid blue;
+    border-radius: 3px;
+    outline: none;
+    background-color: transparent;
+    color: blue;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.description {
+    height: 60px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.descriptionText {
+    font-family: "Roboto", sans-serif;
+    margin-left: 10px;
+    box-sizing: border-box;
+}
+
+.basket {
+    width: 100%;
+    height: 40px;
+    margin-left: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.line {
+    width: 90%;
+    background-color: rgb(185, 185, 185);
+}
+
+.basketText {
+    background-color: transparent;
+    outline: none;
+    background-color: rgb(51, 172, 51);
+    border: transparent;
+    border-radius: 3px;
+    color: aliceblue;
+    width: 60%;
+    height: 22px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.textP {
+    font-size: 13px;
+    width: 170px;
+    height: 70px;
+    position: absolute;
+    bottom: 426px;
+    left: 240px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.textP {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.textP p {
+    font-family: "Roboto", sans-serif;
+}
+
+.basketClickText {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.basketClickText a {
+    font-size: 13px;
+    margin-bottom: 30px;
+    color: red;
+}
+
+.x {
+    margin-bottom: 50px;
+    color: red;
+    right: 5px;
+    width: 5px;
+    height: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-size: 18px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.basketClickText button {
+    background-color: transparent;
+    border: none;
+}
